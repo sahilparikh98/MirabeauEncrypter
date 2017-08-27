@@ -101,7 +101,6 @@ public class Encrypter {
 				}
 				else 
 				{
-					//String letter = input.substring(i, i+3);
 					int set = Integer.parseInt(input.substring(i, i+1));
 					int mapped = Integer.parseInt(input.substring(i+1, i+2));
 					set -= 4;
